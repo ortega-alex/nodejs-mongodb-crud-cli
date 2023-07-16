@@ -1,0 +1,6 @@
+# node dependecies
+**/node_modules
+# enviroment variables
+.env
+# compiled files
+**/dist
