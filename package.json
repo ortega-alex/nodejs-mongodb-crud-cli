@@ -1,32 +1,40 @@
 {
-    "name": "nodejs-mongodb-crud-cli",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "bin": {
-        "taskcli": ".src/index.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "format": "prettier -w .",
-        "lint": "eslint --fix . --ext .js,.jsx"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "commander": "11.0.0",
-        "dotenv": "16.3.1",
-        "inquirer": "8.2.5",
-        "mongoose": "7.3.4"
-    },
-    "devDependencies": {
-        "eslint": "^8.45.0",
-        "eslint-config-prettier": "8.8.0",
-        "eslint-config-standard": "^17.1.0",
-        "eslint-plugin-import": "^2.27.5",
-        "eslint-plugin-n": "^16.0.1",
-        "eslint-plugin-promise": "^6.1.1",
-        "prettier": "3.0.0"
-    }
+  "name": "nodejs-mongodb-crud-cli",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=tjqrtXU3V6M&list=PLvmc52CBxcvWxJUa6RqvVIln06AD26b4O&index=2",
+  "main": "index.js",
+  "bin": {
+    "taskcli": ".src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w .",
+    "lint": "eslint --fix . --ext .js,.jsx"
+  },
+  "keywords": [],
+  "author": "Alex Ortega",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "11.0.0",
+    "dotenv": "16.3.1",
+    "inquirer": "8.2.5",
+    "mongoose": "7.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ortega-alex/nodejs-mongodb-crud-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ortega-alex/nodejs-mongodb-crud-cli/issues"
+  },
+  "homepage": "https://github.com/ortega-alex/nodejs-mongodb-crud-cli#readme"
 }
